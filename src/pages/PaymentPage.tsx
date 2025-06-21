@@ -6,7 +6,6 @@ import apiClient from "../services/apiServices";
 import { paymentSchema } from "../Types/validationBooking";
 import AccordionSection from "../components/AccordionSection";
 
-
 type FormData = {
   proof: File | null;
   jumputan_ids: { id: number; quantity: number }[];
@@ -92,7 +91,7 @@ export default function PaymentPage() {
       ...prev,
       proof: file,
     }));
-    setFileName(file ? file.name: null);
+    setFileName(file ? file.name : null);
   };
 
   const totalQuantity: number = cart.reduce(
@@ -538,8 +537,7 @@ export default function PaymentPage() {
                     id="upload"
                     className="absolute left-[57px] top-1/2 -translate-y-1/2 py-[15px] text-[#ACACB9]"
                   >
-                    
-                    {fileName ? fileName: 'Add an attachment'}
+                    {fileName ? fileName : "Add an attachment"}
                   </p>
                   <input
                     type="file"
@@ -565,6 +563,11 @@ export default function PaymentPage() {
                       ?.message
                   }
                 </p>
+              )}
+              {successMessage && (
+                <div className="text-green-600 font-semibold text-center">
+                  {successMessage}
+                </div>
               )}
             </label>
             <button
