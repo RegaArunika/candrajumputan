@@ -126,7 +126,7 @@ export default function BrowsePage() {
         <div className="flex justify-between px-5">
           <a href="">
             <img
-              src={`${import.meta.env.BASE_URL}assets/images/icons/candra.png`}
+              src={`${import.meta.env.BASE_URL}assets/images/logos/candra.png`}
               alt="icon"
               className="h-[50px] w-[113px] shrink-0"
             />
