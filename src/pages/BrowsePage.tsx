@@ -94,7 +94,7 @@ export default function BrowsePage() {
           <div className="language flex h-[32px] items-center gap-[10px]">
             <button type="button" className="indo flex items-center gap-[6px]">
               <img
-                src="/assets/images/icons/id.svg"
+                src={`${import.meta.env.BASE_URL}assets/images/icons/id.svg`}
                 alt="icon"
                 className="h-[15px] w-5 shrink-0"
               />
@@ -103,7 +103,7 @@ export default function BrowsePage() {
             <span className="block h-full w-px bg-cosmetics-greylight" />
             <button type="button" className="jpn flex items-center gap-[6px]">
               <img
-                src="/assets/images/icons/jp.svg"
+                src={`${import.meta.env.BASE_URL}assets/images/icons/jp.svg`}
                 alt="icon"
                 className="h-[15px] w-5 shrink-0"
               />
@@ -112,7 +112,7 @@ export default function BrowsePage() {
           </div>
           <div className="flex items-center gap-[6px]">
             <img
-              src="/assets/images/icons/telp.svg"
+              src={`${import.meta.env.BASE_URL}assets/images/icons/telp.svg`}
               alt="icon"
               className="size-5 shrink-0"
             />
@@ -126,7 +126,7 @@ export default function BrowsePage() {
         <div className="flex justify-between px-5">
           <a href="">
             <img
-              src="/assets/images/logos/candra.png"
+              src={`${import.meta.env.BASE_URL}assets/images/icons/candra.png`}
               alt="icon"
               className="h-[50px] w-[113px] shrink-0"
             />
@@ -138,7 +138,7 @@ export default function BrowsePage() {
             >
               <div className="flex h-full w-full shrink-0 items-center justify-center rounded-full bg-white">
                 <img
-                  src="/assets/images/icons/search.svg"
+                  src={`${import.meta.env.BASE_URL}assets/images/icons/search.svg`}
                   alt="icon"
                   className="size-5 shrink-0"
                 />
@@ -149,7 +149,7 @@ export default function BrowsePage() {
             >
               <div className="flex h-full w-full shrink-0 items-center justify-center rounded-full bg-white">
                 <img
-                  src="/assets/images/icons/cart.svg"
+                  src={`${import.meta.env.BASE_URL}assets/images/icons/cart.svg`}
                   alt="icon"
                   className="size-5 shrink-0"
                 />
@@ -172,7 +172,7 @@ export default function BrowsePage() {
               <a href="">
                 <div className="flex h-[190px] w-[320px] items-center justify-center overflow-hidden rounded-3xl">
                   <img
-                    src="/assets/images/thumbnails/kebaya1.jpg"
+                    src={`${import.meta.env.BASE_URL}assets/images/thumbnails/kebaya1.jpg`}
                     alt="image"
                     className="h-full w-full object-cover"
                   />
@@ -183,7 +183,7 @@ export default function BrowsePage() {
               <a href="">
                 <div className="flex h-[190px] w-[320px] items-center justify-center overflow-hidden rounded-3xl">
                   <img
-                    src="/assets/images/thumbnails/kebaya2.jpg"
+                    src={`${import.meta.env.BASE_URL}assets/images/thumbnails/kebaya2.jpg`}
                     alt="image"
                     className="h-full w-full object-cover"
                   />
@@ -194,7 +194,7 @@ export default function BrowsePage() {
               <a href="">
                 <div className="flex h-[190px] w-[320px] items-center justify-center overflow-hidden rounded-3xl">
                   <img
-                    src="/assets/images/thumbnails/discount-for.png"
+                    src={`${import.meta.env.BASE_URL}assets/images/thumbnails/discount-for.png`}
                     alt="image"
                     className="h-full w-full object-cover"
                   />
@@ -259,7 +259,7 @@ export default function BrowsePage() {
                         <div className="flex h-full flex-col justify-center gap-4 rounded-[23px] bg-white px-4 hover:rounded-[22px]">
                           <span className="absolute right-[14px] top-[14px] flex items-center justify-center gap-[2px] rounded-full bg-cosmetics-purple px-2 py-[6px]">
                             <img
-                              src="/assets/images/icons/star.svg"
+                              src={`${import.meta.env.BASE_URL}assets/images/icons/star.svg`}
                               alt="icon"
                               className="size-4 shrink-0"
                             />
@@ -325,7 +325,7 @@ export default function BrowsePage() {
                         </strong>
                         <div className="flex items-center justify-center gap-[2px]">
                           <img
-                            src="/assets/images/icons/star.svg"
+                            src={`${import.meta.env.BASE_URL}assets/images/icons/star.svg`}
                             alt="icon"
                             className="size-4 shrink-0"
                           />
@@ -352,7 +352,7 @@ export default function BrowsePage() {
                 <Link to={`/`}>
                   <div className="flex w-[50px] flex-col items-center gap-1">
                     <img
-                      src="/assets/images/icons/browse.svg"
+                      src={`${import.meta.env.BASE_URL}assets/images/icons/browse.svg`}
                       alt="icon"
                       className="size-6 shrink-0"
                     />
@@ -366,7 +366,7 @@ export default function BrowsePage() {
                 <Link to={`/check-booking`}>
                   <div className="flex w-[50px] flex-col items-center gap-1">
                     <img
-                      src="/assets/images/icons/car.svg"
+                      src={`${import.meta.env.BASE_URL}assets/images/icons/car.svg`}
                       alt="icon"
                       className="size-6 shrink-0"
                     />
@@ -379,7 +379,7 @@ export default function BrowsePage() {
                   <div className="relative flex h-[80px] w-[80px] items-center justify-center rounded-full bg-[#FAF9FA]">
                     <div className="flex size-[65px] items-center justify-center rounded-full bg-cosmetics-gradient-pink-white transition-shadow duration-300 hover:shadow-[0px_6px_10px_0px_#FF4D9E6E]">
                       <img
-                        src="/assets/images/icons/video.svg"
+                        src={`${import.meta.env.BASE_URL}assets/images/icons/video.svg`}
                         alt="icon"
                         className="size-[30px] shrink-0"
                       />
@@ -391,7 +391,7 @@ export default function BrowsePage() {
                 <a href="">
                   <div className="flex w-[50px] flex-col items-center gap-1">
                     <img
-                      src="/assets/images/icons/gift.svg"
+                      src={`${import.meta.env.BASE_URL}assets/images/icons/gift.svg`}
                       alt="icon"
                       className="size-6 shrink-0"
                     />
@@ -403,7 +403,7 @@ export default function BrowsePage() {
                 <a href="">
                   <div className="flex w-[50px] flex-col items-center gap-1">
                     <img
-                      src="/assets/images/icons/message.svg"
+                      src={`${import.meta.env.BASE_URL}assets/images/icons/message.svg`}
                       alt="icon"
                       className="size-6 shrink-0"
                     />
